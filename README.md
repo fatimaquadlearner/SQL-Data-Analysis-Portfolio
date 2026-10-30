@@ -48,3 +48,54 @@ Career Objective
 I am developing my skills in SQL, Python, Power BI, and Generative AI, with a focus on building practical projects and pursuing opportunities in Data Analytics and AI-related fields.
 
 I will continue updating this repository as I complete new exercises and projects.
+
+
+Project 1: Online Retail Sales Analysis
+
+Project Status: In Progress
+Started: October 29, 2026
+
+Project Objective
+
+Analyze real-world retail transaction data using Excel and SQL to identify sales trends, customer purchasing behavior, and business performance.
+
+Dataset
+
+Online Retail Dataset — UCI Machine Learning Repository
+
+Data Cleaning Progress — October 30, 2026
+
+1. Duplicate Removal
+
+* Original dataset: 541,909 records
+* Records after duplicate removal: 536,641
+* Approximately 5,268 records removed
+
+2. Missing Data Analysis
+
+* Identified 135,038 records with missing Customer IDs.
+* Approximately 25.16% of records have missing Customer IDs.
+* Decided to retain these transactions for overall sales analysis.
+* Customer-specific analysis will exclude records without Customer IDs.
+
+Tools
+
+* Microsoft Excel — Data cleaning and preparation
+* MySQL — Planned data analysis
+* GitHub — Project documentation and version control
+
+Next Steps
+
+* Investigate negative quantities and product returns.
+* Identify canceled transactions.
+* Validate product prices.
+* Prepare the cleaned dataset for MySQL.
+* Write SQL queries to analyze revenue, sales trends, and customer behavior.
+
+Skills Demonstrated
+
+* Data cleaning
+* Duplicate detection and removal
+* Missing data identification
+* Data quality assessment
+* Analytical decision-making
